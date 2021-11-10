@@ -12,7 +12,7 @@ time.sleep(5) #Alloted time to click on field where you want text placed
 txtArr = [] #Empty array for storage of txt lines
 
 '''
-Initiation of file opening to store each individual line into array declared line #8.
+Initiation of file opening to store each individual line into array declared line #12.
 '''
 with open('file.txt') as file:
     txtArr = file.readlines()
@@ -31,4 +31,4 @@ while True:
         keyboard.type(line)
         keyboard.press(Key.enter)
         keyboard.release(Key.enter)
-        #time.sleep(1)
+        #time.sleep(1) #Do not go lower than 1 second as it will most likely crash the program
