@@ -31,4 +31,4 @@ while True:
         keyboard.type(line)
         keyboard.press(Key.enter)
         keyboard.release(Key.enter)
-        #time.sleep(1) #Do not go lower than 1 second as it will most likely crash the program
+        time.sleep(1) #Do not go lower than 1 second as it will most likely crash the program
